@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex min-h-screen items-center justify-center px-6 py-12 lg:px-8 bg-white dark:bg-gray-900"
+    class="flex min-h-screen items-center justify-center px-6 py-12 lg:px-8 bg-white dark:bg-gray-900 overflow-y-auto"
   >
     <div class="absolute top-4 right-4">
       <button
@@ -64,9 +64,11 @@
         </div>
 
         <div>
+          <br />
           <button
             type="submit"
-            class="flex w-full justify-center rounded-md bg-indigo-600 dark:bg-indigo-500 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-indigo-500 dark:hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            style="background: linear-gradient(to right, #4f46e5, #3b82f6)"
+            class="flex w-full justify-center rounded-md bg-indigo-600 dark:bg-indigo-500 px-4 py-2 text-sm font-semibold text-white shadow-md hover:bg-indigo-700 dark:hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
           >
             Sign in
           </button>
