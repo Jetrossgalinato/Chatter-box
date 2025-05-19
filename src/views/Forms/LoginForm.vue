@@ -12,6 +12,7 @@
     </div>
 
     <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+      <img class="mx-auto h-12 w-auto" src="/src/assets/logo.svg" alt="Chatter-Box Logo" />
       <h2
         class="text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100"
       >
