@@ -68,7 +68,7 @@
           <button
             type="submit"
             style="background: linear-gradient(to right, #4f46e5, #3b82f6)"
-            class="flex w-full justify-center rounded-md bg-indigo-600 dark:bg-indigo-500 px-4 py-2 text-sm font-semibold text-white shadow-md hover:bg-indigo-700 dark:hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
+            class="flex w-full justify-center rounded-md bg-indigo-600 dark:bg-indigo-500 px-4 py-2 text-sm font-semibold text-white shadow-md hover:shadow-lg hover:scale-105 hover:bg-indigo-700 dark:hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 dark:focus:ring-offset-gray-900 transition-transform duration-200"
           >
             Sign in
           </button>
